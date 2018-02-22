@@ -143,6 +143,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BearPair.cpp" />
     <ClCompile Include="EntryPoint.cpp" />
     <ClCompile Include="MakeTwoConsecutive.cpp" />
     <ClCompile Include="Zhangzj_DonateSeconds.cpp" />

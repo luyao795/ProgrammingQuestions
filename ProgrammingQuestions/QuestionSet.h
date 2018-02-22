@@ -15,6 +15,11 @@ namespace QuestionSet
 	{
 		std::string MakeConsecutiveString(std::string original);
 	}
+
+	namespace BearPair
+	{
+		int LargestDistance(std::string input);
+	}
 }
 
 #endif

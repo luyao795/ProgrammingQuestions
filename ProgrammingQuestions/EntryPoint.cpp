@@ -12,8 +12,13 @@ int main()
 	//}
 
 	// Test for MakeTwoConsecutive
+	//{
+	//	TestSet::MakeTwoConsecutive::MakeTwoConsecutive_Test();
+	//}
+
+	// Test for BearPair
 	{
-		TestSet::MakeTwoConsecutive::MakeTwoConsecutive_Test();
+		TestSet::BearPair::LargestDistance_Test();
 	}
 
 	WaitForInput();

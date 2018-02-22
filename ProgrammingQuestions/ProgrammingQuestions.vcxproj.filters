@@ -24,6 +24,9 @@
     <ClCompile Include="MakeTwoConsecutive.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BearPair.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="QuestionSet.h">

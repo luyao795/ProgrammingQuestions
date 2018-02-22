@@ -14,6 +14,11 @@ namespace TestSet
 	{
 		void MakeTwoConsecutive_Test();
 	}
+
+	namespace BearPair
+	{
+		void LargestDistance_Test();
+	}
 }
 
 #endif
