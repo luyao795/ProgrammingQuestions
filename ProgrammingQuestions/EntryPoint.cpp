@@ -1,12 +1,22 @@
 ﻿#include "QuestionSet.h"
 #include "TestSet.h"
 
+#define WaitForInput() getchar()
+#define Success 0
+
 int main()
 {
 	// Test for Zhangzj
+	//{
+	//	TestSet::Zhangzj::DonateSeconds_Test();
+	//}
+
+	// Test for MakeTwoConsecutive
 	{
-		TestSet::Zhangzj::DonateSeconds_Test();
+		TestSet::MakeTwoConsecutive::MakeTwoConsecutive_Test();
 	}
-	return 0;
+
+	WaitForInput();
+	return Success;
 }
 

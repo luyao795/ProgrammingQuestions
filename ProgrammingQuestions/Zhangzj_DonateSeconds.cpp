@@ -1,7 +1,7 @@
 #include "QuestionSet.h"
 #include "TestSet.h"
 
-// Source: https://community.topcoder.com/stat?c=problem_statement&pm=14675
+//	Source: https://community.topcoder.com/stat?c=problem_statement&pm=14675
 
 //	Problem Statement
 //
@@ -33,10 +33,10 @@
 //
 //	Constraints
 //
-//	Both speech and words will contain between 1 and 50 elements, inclusive.
-//	All pairs of elements in words will be distinct.
-//	Each element of speech and words will consist only of lowercase English letters.
-//	The length of each element of speech and words will be between 1 and 50, inclusive.
+//	- Both speech and words will contain between 1 and 50 elements, inclusive.
+//	- All pairs of elements in words will be distinct.
+//	- Each element of speech and words will consist only of lowercase English letters.
+//	- The length of each element of speech and words will be between 1 and 50, inclusive.
 int QuestionSet::Zhangzj::DonateSeconds(std::vector<std::string> speech, std::vector<std::string> words)
 {
 	int seconds = 0;

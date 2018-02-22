@@ -10,6 +10,11 @@ namespace QuestionSet
 	{
 		int DonateSeconds(std::vector<std::string> speech, std::vector<std::string> words);
 	}
+
+	namespace MakeTwoConsecutive
+	{
+		std::string MakeConsecutiveString(std::string original);
+	}
 }
 
 #endif

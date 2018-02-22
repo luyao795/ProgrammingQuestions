@@ -144,6 +144,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="EntryPoint.cpp" />
+    <ClCompile Include="MakeTwoConsecutive.cpp" />
     <ClCompile Include="Zhangzj_DonateSeconds.cpp" />
   </ItemGroup>
   <ItemGroup>

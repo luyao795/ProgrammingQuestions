@@ -21,6 +21,9 @@
     <ClCompile Include="Zhangzj_DonateSeconds.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MakeTwoConsecutive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="QuestionSet.h">

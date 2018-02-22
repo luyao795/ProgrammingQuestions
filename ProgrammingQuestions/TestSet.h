@@ -9,6 +9,11 @@ namespace TestSet
 	{
 		void DonateSeconds_Test();
 	}
+
+	namespace MakeTwoConsecutive
+	{
+		void MakeTwoConsecutive_Test();
+	}
 }
 
 #endif
