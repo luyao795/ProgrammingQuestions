@@ -32,6 +32,7 @@
 //
 //
 //	Constraints
+//
 //	- s will have between 2 and 50 characters, inclusive.
 //	- Each character in s will be a lowercase English letter('a' - 'z').
 int QuestionSet::BearPair::LargestDistance(std::string input)

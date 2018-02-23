@@ -27,6 +27,7 @@
 //
 //
 //	Constraints
+//
 //	- S will contain between 1 and 50 characters, inclusive.
 //	- Each character in S will be an uppercase English letter : 'A' - 'Z'.
 std::string QuestionSet::MakeTwoConsecutive::MakeConsecutiveString(std::string original)
