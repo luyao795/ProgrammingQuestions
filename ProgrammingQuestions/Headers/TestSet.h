@@ -2,6 +2,7 @@
 #define TEST_SET_H
 
 #include <string>
+#include <iostream>
 
 namespace TestSet
 {
@@ -18,6 +19,11 @@ namespace TestSet
 	namespace BearPair
 	{
 		void LargestDistance_Test();
+	}
+
+	namespace CostOfDancing
+	{
+		void MinimumCost_Test();
 	}
 }
 

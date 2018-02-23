@@ -1,6 +1,5 @@
 #include "QuestionSet.h"
 #include "TestSet.h"
-#include <iostream>
 
 //	Source: https://community.topcoder.com/stat?c=problem_statement&pm=14783
 
@@ -111,5 +110,5 @@ void TestSet::MakeTwoConsecutive::MakeTwoConsecutive_Test()
 	// Actual Output:	Possible
 	std::string original = "BOB";
 
-	std::cout << QuestionSet::MakeTwoConsecutive::MakeConsecutiveString(original) << std::endl;
+	std::cout << "Get two consecutive characters the same for \"" << original << "\": " << QuestionSet::MakeTwoConsecutive::MakeConsecutiveString(original) << "." << std::endl;
 }

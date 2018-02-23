@@ -20,6 +20,11 @@ namespace QuestionSet
 	{
 		int LargestDistance(std::string input);
 	}
+
+	namespace CostOfDancing
+	{
+		int MinimumCost(int numberOfDances, std::vector<int> listOfCosts);
+	}
 }
 
 #endif

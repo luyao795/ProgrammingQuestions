@@ -152,6 +152,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Sources\BearPair.cpp" />
+    <ClCompile Include="Sources\CostOfDancing.cpp" />
     <ClCompile Include="Sources\EntryPoint.cpp" />
     <ClCompile Include="Sources\MakeTwoConsecutive.cpp" />
     <ClCompile Include="Sources\Zhangzj_DonateSeconds.cpp" />

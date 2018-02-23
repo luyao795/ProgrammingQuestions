@@ -17,9 +17,14 @@ int main()
 	//}
 
 	// Test for BearPair
-	{
-		TestSet::BearPair::LargestDistance_Test();
-	}
+	//{
+	//	TestSet::BearPair::LargestDistance_Test();
+	//}
+
+	// Test for CostOfDancing
+	//{
+	//	TestSet::CostOfDancing::MinimumCost_Test();
+	//}
 
 	WaitForInput();
 	return Success;

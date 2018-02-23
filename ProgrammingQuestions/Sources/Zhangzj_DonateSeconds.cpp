@@ -86,5 +86,5 @@ void TestSet::Zhangzj::DonateSeconds_Test()
 	std::vector<std::string> speech = { "je", "le", "ai", "deja", "vu", "et", "je", "le", "veux", "encore" };
 	std::vector<std::string> words = { "i", "am", "having", "deja", "vu", "please", "stop", "the", "encore" };
 
-	printf("%d\n", QuestionSet::Zhangzj::DonateSeconds(speech, words));
+	std::cout << "The amount of seconds you can donate: " << QuestionSet::Zhangzj::DonateSeconds(speech, words) << "." << std::endl;
 }

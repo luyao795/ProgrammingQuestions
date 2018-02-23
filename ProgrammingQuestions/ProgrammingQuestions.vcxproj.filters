@@ -35,5 +35,8 @@
     <ClCompile Include="Sources\Zhangzj_DonateSeconds.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Sources\CostOfDancing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

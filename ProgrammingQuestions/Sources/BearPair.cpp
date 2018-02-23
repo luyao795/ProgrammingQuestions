@@ -54,7 +54,7 @@ int QuestionSet::BearPair::LargestDistance(std::string input)
 			// If current two characters are different, then we found the max distance
 			if (input.at(right) != input.at(left))
 			{
-				result = right - left;
+				result = static_cast<int>(right - left);
 				break;
 			}
 			// Otherwise, we will use different strategies to reduce search length
@@ -117,5 +117,5 @@ void TestSet::BearPair::LargestDistance_Test()
 	// Actual Output:	46
 	std::string original = "xxyyxyxyyyyyyxxxyxyxxxyxyxyyyyyxxxxxxyyyyyyyyxxxxx";
 
-	printf("%d\n", QuestionSet::BearPair::LargestDistance(original));
+	std::cout << "Largest distance of difference in \"" << original << "\": " << QuestionSet::BearPair::LargestDistance(original) << "." << std::endl;
 }
